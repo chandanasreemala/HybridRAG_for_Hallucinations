@@ -128,9 +128,9 @@ def evaluate_hallucinated_samples(df):
 
     # Define retrievers and their score columns
     retrievers = {
-        'Keyword search': 'bm25_score',
-        'Semantic search': 'semantic_score',
-        'Hybrid search': 'hybrid_score'
+        'Sparse': 'bm25_score',
+        'Dense': 'semantic_score',
+        'Hybrid': 'hybrid_score'
     }
 
     results = {}
