@@ -1,0 +1,15 @@
+langchain
+langchain-community
+pandas
+PyMuPDF
+datasets
+transformers 
+sentence-transformers 
+faiss-cpu 
+huggingface_hub
+rank_bm25
+rouge_score
+bert_score
+matplotlib
+seaborn
+nltk
